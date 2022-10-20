@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+<script>
+
+let chickenqty = prompt("How much chicken did you buy from the market?, (please put chicken quantity in Gram)")
+document.write(  "<h1> You have Bought" + chickenqty + "gram Chicken from the market <h1/>" )
+
+let chickenRate = prompt("What is the rate per kg of Chicken in the market?")
+let newchickenRate = Number.parseInt(chickenRate)
+document.write("Chicken rate per kg is Rs" + chickenRate + "/-")
+let chickenPrice = (chickenRate / 100) * chickenqty
+
+document.write("You have Purchased"+ chickenqty +  "gram Chicken in Rs." + chickenPrice + "/-")
+
+
+</script>
+
+
+</body>
+</html>
